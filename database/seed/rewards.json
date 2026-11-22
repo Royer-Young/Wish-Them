@@ -1,0 +1,383 @@
+{
+  "table": "rewards",
+  "source": "seed/rewards.ts（24 件，四类）",
+  "note": "由 tools/scripts/build-seeds.ts 生成，请勿手改；内容表在 database/seed/*.ts。",
+  "count": 24,
+  "rows": [
+    {
+      "id": "7b27f4df-37d3-450d-821e-9b78314f09b9",
+      "category": "health",
+      "title": "护膝热敷仪",
+      "note": "「妈妈的腿疼」这类愿望的默认兑现",
+      "min_cents": 12000,
+      "max_cents": 18000,
+      "recommend_flags": [
+        "body"
+      ],
+      "sort_order": 1,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "c8dbc924-3f30-49f6-8499-b74ec6ae929c",
+      "category": "health",
+      "title": "助眠枕",
+      "note": "睡眠类愿望优先",
+      "min_cents": 8000,
+      "max_cents": 20000,
+      "recommend_flags": [
+        "sleep"
+      ],
+      "sort_order": 2,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "82caf5b7-3e33-41e2-8f1c-fb8844310933",
+      "category": "health",
+      "title": "艾草贴 / 泡脚包",
+      "note": "差额不够时加的一件",
+      "min_cents": 6000,
+      "max_cents": 12000,
+      "recommend_flags": [
+        "body",
+        "sleep"
+      ],
+      "sort_order": 3,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "76c98d8d-7d87-4693-8829-403dffc95564",
+      "category": "health",
+      "title": "电子血压计",
+      "note": "需要 TA 自己会操作",
+      "min_cents": 15000,
+      "max_cents": 26000,
+      "recommend_flags": [
+        "body"
+      ],
+      "sort_order": 4,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "430336e6-3538-4ec9-8f1f-7462555f1233",
+      "category": "health",
+      "title": "按摩披肩",
+      "note": "久坐、腰肩不适",
+      "min_cents": 15000,
+      "max_cents": 30000,
+      "recommend_flags": [
+        "body"
+      ],
+      "sort_order": 5,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "4bf9af7a-6e84-4b23-8d28-60f50e78c787",
+      "category": "health",
+      "title": "体检加项券",
+      "note": "「陪 TA 体检」任务完成后才推荐",
+      "min_cents": 20000,
+      "max_cents": 40000,
+      "recommend_flags": [
+        "body"
+      ],
+      "sort_order": 6,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "459f4782-ce96-4f08-8f3b-5f6bed6006be",
+      "category": "health",
+      "title": "防滑拖鞋",
+      "note": "独居长辈的低成本高安全",
+      "min_cents": 5000,
+      "max_cents": 9000,
+      "recommend_flags": [
+        "body",
+        "life"
+      ],
+      "sort_order": 7,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "043482c2-3d42-4170-8390-c56d30c6c0d2",
+      "category": "company",
+      "title": "往返学校与家的车票",
+      "note": "孤单类首选，价格随距离浮动大",
+      "min_cents": 8000,
+      "max_cents": 50000,
+      "recommend_flags": [
+        "lonely"
+      ],
+      "sort_order": 1,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "8740a845-235b-491b-8aaa-8c9bff9beac7",
+      "category": "company",
+      "title": "一次周末回家的饭钱",
+      "note": "「这个周末，回去一趟」的由头",
+      "min_cents": 10000,
+      "max_cents": 20000,
+      "recommend_flags": [
+        "lonely",
+        "emotion"
+      ],
+      "sort_order": 2,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "ea8d814a-1137-4377-8e19-52b9f0fef95c",
+      "category": "company",
+      "title": "两个人一起看的电影票",
+      "note": "同城可用",
+      "min_cents": 6000,
+      "max_cents": 12000,
+      "recommend_flags": [
+        "lonely",
+        "emotion"
+      ],
+      "sort_order": 3,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "65c5894c-a688-4aca-8549-c29e36f7f075",
+      "category": "company",
+      "title": "一通长途话费充值",
+      "note": "异地最便宜的一件",
+      "min_cents": 5000,
+      "max_cents": 10000,
+      "recommend_flags": [
+        "lonely"
+      ],
+      "sort_order": 4,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "3c4f02c8-9d78-4e62-8214-d2177061bf62",
+      "category": "company",
+      "title": "陪诊半天的打车费",
+      "note": "陪 TA 就医时匹配",
+      "min_cents": 5000,
+      "max_cents": 15000,
+      "recommend_flags": [
+        "body",
+        "lonely"
+      ],
+      "sort_order": 5,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "0eb133c2-e9bb-4d93-80cf-b8fac73087df",
+      "category": "company",
+      "title": "一次短途同行的车票",
+      "note": "超出目标价时的「加一档」",
+      "min_cents": 15000,
+      "max_cents": 40000,
+      "recommend_flags": [
+        "lonely"
+      ],
+      "sort_order": 6,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "88fe1004-3201-4c88-852f-dc330798969e",
+      "category": "life",
+      "title": "一双软底鞋",
+      "note": "每天要走很多路的人",
+      "min_cents": 15000,
+      "max_cents": 30000,
+      "recommend_flags": [
+        "body",
+        "life"
+      ],
+      "sort_order": 1,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "56c4490e-205f-4ff2-8114-0d37bd155cf3",
+      "category": "life",
+      "title": "护眼灯 / 老花镜",
+      "note": "熬夜学习或看不清小字",
+      "min_cents": 8000,
+      "max_cents": 20000,
+      "recommend_flags": [
+        "sleep",
+        "study",
+        "life"
+      ],
+      "sort_order": 2,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "9fa56cf1-26d8-43c3-8ec5-ad0eb5442232",
+      "category": "life",
+      "title": "带滤网的保温杯",
+      "note": "小额，适合补齐差额",
+      "min_cents": 6000,
+      "max_cents": 12000,
+      "recommend_flags": [
+        "life"
+      ],
+      "sort_order": 3,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "e74ccdd6-bff7-4da5-821f-09efdff811a3",
+      "category": "life",
+      "title": "一次家电维修或更换",
+      "note": "对应「TA 家那个坏掉的东西」",
+      "min_cents": 8000,
+      "max_cents": 20000,
+      "recommend_flags": [
+        "life"
+      ],
+      "sort_order": 4,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "c32e23d0-680f-4e75-89be-2dc895c5256f",
+      "category": "life",
+      "title": "一周买菜基金",
+      "note": "独居长辈或自己做饭的室友",
+      "min_cents": 10000,
+      "max_cents": 20000,
+      "recommend_flags": [
+        "life",
+        "lonely"
+      ],
+      "sort_order": 5,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "55a22a77-2d69-4f56-8a22-8cc676d4414d",
+      "category": "life",
+      "title": "暖光小夜灯",
+      "note": "夜里醒的人不用摸黑",
+      "min_cents": 5000,
+      "max_cents": 10000,
+      "recommend_flags": [
+        "sleep",
+        "lonely"
+      ],
+      "sort_order": 6,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "8bb31c14-c69e-4cea-8475-57bdd57d07fd",
+      "category": "heart",
+      "title": "手写信 + 相册冲印",
+      "note": "「再加一封信」的默认项",
+      "min_cents": 4000,
+      "max_cents": 9000,
+      "recommend_flags": [
+        "emotion",
+        "lonely"
+      ],
+      "sort_order": 1,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "2d52d149-3149-49c0-825a-82a7b27563f0",
+      "category": "heart",
+      "title": "一顿火锅",
+      "note": "情绪类愿望常见兑现",
+      "min_cents": 10000,
+      "max_cents": 20000,
+      "recommend_flags": [
+        "emotion",
+        "study"
+      ],
+      "sort_order": 2,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "53b1e0cf-7790-4fc5-83c3-0be3537516f8",
+      "category": "heart",
+      "title": "一次线下的感谢（茶点）",
+      "note": "给老师或帮过自己的人",
+      "min_cents": 6000,
+      "max_cents": 15000,
+      "recommend_flags": [
+        "study",
+        "emotion"
+      ],
+      "sort_order": 3,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "be150a6b-afae-4f52-8b21-9648cd64b157",
+      "category": "heart",
+      "title": "一本 TA 提过的书",
+      "note": "小额心意，容易凑够",
+      "min_cents": 4000,
+      "max_cents": 9000,
+      "recommend_flags": [
+        "study",
+        "emotion"
+      ],
+      "sort_order": 4,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    },
+    {
+      "id": "eb703863-8500-483a-8c37-f25e55265342",
+      "category": "heart",
+      "title": "一张合影的放大打印",
+      "note": "账本截图之外的第一份实物",
+      "min_cents": 4000,
+      "max_cents": 8000,
+      "recommend_flags": [
+        "emotion",
+        "lonely"
+      ],
+      "sort_order": 5,
+      "stock_left": null,
+      "is_active": true,
+      "version": 1
+    }
+  ]
+}
