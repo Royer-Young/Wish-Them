@@ -1,0 +1,27 @@
+{
+  "$comment": "Deno 侧配置：本地校验用（放在仓库根，避免被打进 Function 产物）。工具链跑 Node 时忽略本文件（见 docs/05-environment.md）。",
+  "compilerOptions": {
+    "strict": true,
+    "useUnknownInCatchVariables": true,
+    "noUncheckedIndexedAccess": false,
+    "noImplicitOverride": true,
+    "lib": ["deno.window", "esnext"]
+  },
+  "fmt": {
+    "lineWidth": 120,
+    "singleQuote": true,
+    "proseWrap": "preserve",
+    "indentWidth": 2
+  },
+  "lint": {
+    "rules": { "tags": ["recommended"] }
+  },
+  "tasks": {
+    "check": "deno check backend/index.ts",
+    "routes": "deno run --allow-read --allow-env tools/scripts/check-routes.ts",
+    "migrations": "deno run --allow-read tools/scripts/check-migrations.ts",
+    "schema": "deno run --allow-read tools/scripts/check-schema-usage.ts",
+    "seeds": "deno run --allow-read --allow-write tools/scripts/build-seeds.ts --check",
+    "verify": "deno task check && deno task routes && deno task migrations && deno task schema && deno task seeds"
+  }
+}

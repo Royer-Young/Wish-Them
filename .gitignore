@@ -5,3 +5,10 @@ dist/
 !.env.example
 test-results/
 *.tsbuildinfo
+
+# backend local check / probe artifacts
+.tscheck/
+.tmp-seed-*
+fn-probe*/
+diag-probe/
+*.qoder.site

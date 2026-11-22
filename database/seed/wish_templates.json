@@ -1,0 +1,728 @@
+{
+  "table": "wish_templates",
+  "source": "seed/wish-templates.ts（12 关系 × 6 条）",
+  "note": "由 tools/scripts/build-seeds.ts 生成，请勿手改；内容表在 database/seed/*.ts。",
+  "count": 72,
+  "rows": [
+    {
+      "id": "f4307698-4e67-4beb-8ab3-7586e4846f9e",
+      "relation": "妈妈",
+      "wish_type": "body",
+      "content": "妈妈的腰疼能轻一点，晚上睡得沉一些。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "26338896-0ccb-4678-8a9c-930a0f9adddc",
+      "relation": "妈妈",
+      "wish_type": "sleep",
+      "content": "妈妈别再熬到一点刷手机，十一点前熄灯。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "dc8b53b8-6f79-4725-8f6d-571c43844111",
+      "relation": "妈妈",
+      "wish_type": "lonely",
+      "content": "妈妈白天一个人说话太少，我想让她每天都有人聊几句。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "fe233438-1466-46d0-8bf4-807bc6d3240e",
+      "relation": "妈妈",
+      "wish_type": "study",
+      "content": "妈妈想考那个上岗证，一直没时间看书。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "9d9309a0-7086-4b40-8803-0547eb8cd722",
+      "relation": "妈妈",
+      "wish_type": "emotion",
+      "content": "妈妈最近总叹气，我希望她能笑一次是因为自己。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "3a7f6d42-6027-4d9d-81dc-11e52ac17809",
+      "relation": "妈妈",
+      "wish_type": "life",
+      "content": "妈妈做饭总在剩菜里对付，我想让她好好吃一顿。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "91d53090-010e-496b-8082-7b469363f3ce",
+      "relation": "爸爸",
+      "wish_type": "body",
+      "content": "爸爸的血压能稳一点，别再疼着还去跑工地。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "7a34e2e1-4d2e-468e-8d4c-428e2dc901e8",
+      "relation": "爸爸",
+      "wish_type": "sleep",
+      "content": "爸爸值完夜班能睡足八小时。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "282add19-34e3-49b6-8f7c-a715a71b3b7e",
+      "relation": "爸爸",
+      "wish_type": "lonely",
+      "content": "爸爸的朋友越来越少，我想让他有人一起下棋。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "1ff89524-1e73-4727-860f-4315defd5f15",
+      "relation": "爸爸",
+      "wish_type": "emotion",
+      "content": "爸爸从不说自己累，我希望他偶尔能软一次。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "701776f4-7ff7-4087-87a0-bfc963ff8ed6",
+      "relation": "爸爸",
+      "wish_type": "life",
+      "content": "爸爸那辆骑了八年的电动车，刹车该换了。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "ae6ee3e2-1fdd-4c48-8fb8-47360747543f",
+      "relation": "爸爸",
+      "wish_type": "study",
+      "content": "爸爸想学会用导航软件，别再嘴上说“看路牌就行”。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "730aa0fe-bf4b-48f4-8847-3f1cabffc111",
+      "relation": "奶奶",
+      "wish_type": "body",
+      "content": "奶奶的膝盖暖和一点，上下楼不用扶着墙。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "617dc43a-cf66-438e-863b-1294eb8be607",
+      "relation": "奶奶",
+      "wish_type": "lonely",
+      "content": "奶奶每天就在阳台坐一天，我想让她有人陪说话。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "af03ff1f-7548-4900-89d6-31f2ff096336",
+      "relation": "奶奶",
+      "wish_type": "sleep",
+      "content": "奶奶夜里醒四五次，能睡个整觉。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "b0a56251-9875-49cb-848b-ba679c83ba13",
+      "relation": "奶奶",
+      "wish_type": "emotion",
+      "content": "奶奶总怕自己成了负担，我想让她知道她不是。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "5d4b13c5-2fc5-4bc6-8902-bfbd511e1008",
+      "relation": "奶奶",
+      "wish_type": "life",
+      "content": "奶奶的放大镜旧了，她想自己看药盒上的小字。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "114af899-69e9-49e6-8516-f55b0a0ce457",
+      "relation": "奶奶",
+      "wish_type": "study",
+      "content": "奶奶想学会视频通话，看清外地的孙子。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "aa9dd367-0dfe-4ab2-8b65-c11201a6da9c",
+      "relation": "爷爷",
+      "wish_type": "body",
+      "content": "爷爷的耳朵没那么背，听清我们说话。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "f744d4ed-7aca-492b-8d57-cd5d512c49e6",
+      "relation": "爷爷",
+      "wish_type": "lonely",
+      "content": "爷爷下棋没有对手，我想给他找个能聊天的老伙计。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "e25a0e99-3de9-48f0-84a9-c8f438ee370c",
+      "relation": "爷爷",
+      "wish_type": "emotion",
+      "content": "爷爷把想念都藏在沉默里，我希望他愿意讲出来。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "49986e5d-4ab5-4e4a-8869-d613df56a672",
+      "relation": "爷爷",
+      "wish_type": "life",
+      "content": "爷爷的茶杯该换个带滤网的，他总把茶叶喝进嘴里。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "b4f5f9b6-ceae-4eb3-86a9-1af2143d2634",
+      "relation": "爷爷",
+      "wish_type": "sleep",
+      "content": "爷爷午睡总在半下午，晚上反而睡不着。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "101f6b07-e86a-4683-8aab-e0523b8775ad",
+      "relation": "爷爷",
+      "wish_type": "study",
+      "content": "爷爷想学会用手机听戏，别再抱着那台收音机。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "7f5c7b0b-4b8f-4e99-8843-6c22a5dbc3f4",
+      "relation": "姥姥",
+      "wish_type": "body",
+      "content": "姥姥的腿疼能轻一些，别再一个人在家扛着。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "50f6a6c0-2088-4ac7-83a5-4d1f3e997b03",
+      "relation": "姥姥",
+      "wish_type": "lonely",
+      "content": "姥姥一个人住在老房子，我想让她一周至少热闹一天。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "7e967e18-0735-416c-8d04-2ea3cbedea72",
+      "relation": "姥姥",
+      "wish_type": "emotion",
+      "content": "姥姥总说“我没事”，我希望她真的有没事的一天。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "e984b8cc-42bd-4c49-8c5e-49643601d94e",
+      "relation": "姥姥",
+      "wish_type": "life",
+      "content": "姥姥买菜要爬四楼，我想让她少爬几次。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "9c930cb3-1c65-4894-82e3-dc137ee61a5c",
+      "relation": "姥姥",
+      "wish_type": "sleep",
+      "content": "姥姥夜里一个人，睡不踏实。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "3c2938ca-5d49-44b2-8b55-47babe96bc83",
+      "relation": "姥姥",
+      "wish_type": "study",
+      "content": "姥姥想学会看天气，别再每天问我三遍。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "dfbccb7b-63ff-4a15-88ac-dea8f631a018",
+      "relation": "姥爷",
+      "wish_type": "body",
+      "content": "姥爷的腰能撑住他每天去河边坐着钓鱼。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "9243aacb-bd34-4678-81a7-ffa5e11d9816",
+      "relation": "姥爷",
+      "wish_type": "lonely",
+      "content": "姥爷的话都对着鱼说，我想给他找点人说话的事。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "6d64b8d0-0eba-45e6-8adb-9acb3c92610d",
+      "relation": "姥爷",
+      "wish_type": "emotion",
+      "content": "姥爷逞强一辈子，我希望他接受一次照顾。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "18c42c2e-3c78-44f5-8004-44be8a0446ac",
+      "relation": "姥爷",
+      "wish_type": "life",
+      "content": "姥爷的老花镜裂了还戴着，我想让他看清报纸。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "b8522eb3-319d-48b2-84dd-ac4b5d409ef1",
+      "relation": "姥爷",
+      "wish_type": "sleep",
+      "content": "姥爷凌晨四点就起床，晚上根本睡不着。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "7775cd02-48cc-47c6-8754-f30cb5f1da26",
+      "relation": "姥爷",
+      "wish_type": "study",
+      "content": "姥爷想学会给自己拍照，别再只拍别人。",
+      "tone": "亲近、克制、具体",
+      "batch": 1,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "5ffef343-74c4-44b6-8945-1805331c3659",
+      "relation": "室友",
+      "wish_type": "study",
+      "content": "室友考研压力大，希望能顺利上岸。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "6d233f2d-ce49-44b5-86af-69932d2b4a4e",
+      "relation": "室友",
+      "wish_type": "emotion",
+      "content": "室友最近天天失眠，白天还得强撑着上课。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "969c02ce-c0c9-486d-808f-2c8623b54692",
+      "relation": "室友",
+      "wish_type": "life",
+      "content": "室友的桌面永远乱成一团，我想看他收拾干净一次。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "c7de980f-6a8a-4da7-8f56-29afd72c28ee",
+      "relation": "室友",
+      "wish_type": "sleep",
+      "content": "室友熬夜打游戏到三点，希望他能睡个早觉。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "657e511a-7066-4467-8a93-84d66cf9ab08",
+      "relation": "室友",
+      "wish_type": "body",
+      "content": "室友久坐腰疼，还说不就是坐着嘛。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "e5dba760-b6ef-4b18-846d-797af2e04a69",
+      "relation": "室友",
+      "wish_type": "lonely",
+      "content": "室友说自己“习惯了没人”，其实是不敢说。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "06733978-5134-46d4-8a00-7515b5da934e",
+      "relation": "闺蜜",
+      "wish_type": "emotion",
+      "content": "闺蜜分手后一直在笑，我想让她有一次能哭出来。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "bba1c0c3-f4a7-459f-89fc-a0356df70b51",
+      "relation": "闺蜜",
+      "wish_type": "study",
+      "content": "闺蜜投了四十份简历，希望下一个面试就是她。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "6d7860e6-a8a4-41d2-86de-a3248cd7eeb2",
+      "relation": "闺蜜",
+      "wish_type": "body",
+      "content": "闺蜜痛经到吃止疼片，希望她能舒服一点。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "15a65c2a-7a88-43a4-89c9-3a67cfe3057e",
+      "relation": "闺蜜",
+      "wish_type": "life",
+      "content": "闺蜜总是照顾别人，我想让她被照顾一次。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "5b7bac6d-7245-41f4-8b71-d7908f85a832",
+      "relation": "闺蜜",
+      "wish_type": "sleep",
+      "content": "闺蜜焦虑到凌晨还在刷手机。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "cb988077-3af8-458c-8480-ba8a13f2174f",
+      "relation": "闺蜜",
+      "wish_type": "lonely",
+      "content": "闺蜜换了城市，一个新朋友都没有。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "1132a316-b2bf-4377-8249-3bcbeab9329e",
+      "relation": "兄弟",
+      "wish_type": "emotion",
+      "content": "兄弟失恋了嘴上说没事，我知道他有事。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "9005e7b2-e967-4aac-8a04-be3c27e84d0b",
+      "relation": "兄弟",
+      "wish_type": "body",
+      "content": "兄弟健身把肩练伤了，还不肯去看。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "65d3a7ba-7c97-42d8-8328-6c90539c8fe5",
+      "relation": "兄弟",
+      "wish_type": "study",
+      "content": "兄弟要考公，一个人复习太枯燥。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "00836508-21f5-47a7-8df9-f42f0b1bab73",
+      "relation": "兄弟",
+      "wish_type": "life",
+      "content": "兄弟天天吃泡面，我想看他正经吃顿饭。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "b4b97660-d7f2-4677-881f-b2f7cd677ff5",
+      "relation": "兄弟",
+      "wish_type": "lonely",
+      "content": "兄弟说“兄弟不需要人陪”，这句话最让人担心。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "d37fd609-1533-4af7-878b-658dacb6aa5d",
+      "relation": "兄弟",
+      "wish_type": "sleep",
+      "content": "兄弟通宵赶作业，白天睡不醒。",
+      "tone": "直接、可开玩笑",
+      "batch": 1,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "a1d8ed59-1d45-4a0c-8bd3-4bd83baac221",
+      "relation": "恋人",
+      "wish_type": "emotion",
+      "content": "她最近情绪很低，我想让她知道我在。",
+      "tone": "亲密但不过度",
+      "batch": 1,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "b51107b0-05d9-4dac-82d3-bdf2e59db216",
+      "relation": "恋人",
+      "wish_type": "lonely",
+      "content": "异地恋，我希望 ta 一个人吃饭的时候别觉得孤单。",
+      "tone": "亲密但不过度",
+      "batch": 1,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "babf806f-9f6b-46b9-8cec-46cefbe1db45",
+      "relation": "恋人",
+      "wish_type": "sleep",
+      "content": "他加班到十二点，希望他每天能睡够七小时。",
+      "tone": "亲密但不过度",
+      "batch": 1,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "586aaa6a-33fe-4937-888b-08325521b9e4",
+      "relation": "恋人",
+      "wish_type": "body",
+      "content": "她总说胃不疼，其实是每天都疼。",
+      "tone": "亲密但不过度",
+      "batch": 1,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "c34f3a9b-fcd7-43a7-8719-ad458b737c7d",
+      "relation": "恋人",
+      "wish_type": "study",
+      "content": "ta 想申请交换生，一直不敢投那份材料。",
+      "tone": "亲密但不过度",
+      "batch": 1,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "9c502ed0-327e-463b-845f-b729e969867e",
+      "relation": "恋人",
+      "wish_type": "life",
+      "content": "我们总点外卖，我想和 ta 一起做一顿饭。",
+      "tone": "亲密但不过度",
+      "batch": 1,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "0b6cfacc-5465-426a-8cd2-d2880c2f567b",
+      "relation": "老师",
+      "wish_type": "body",
+      "content": "老师一直站着讲课，希望他的嗓子能好一点。",
+      "tone": "礼貌、有分寸",
+      "batch": 1,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "6446d27b-4fe9-4eba-8c82-b20c6efaa9e2",
+      "relation": "老师",
+      "wish_type": "emotion",
+      "content": "老师说带完这届就休整一年，我希望他别硬撑。",
+      "tone": "礼貌、有分寸",
+      "batch": 1,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "ead46601-3687-4932-8d5d-15d193d6d92c",
+      "relation": "老师",
+      "wish_type": "study",
+      "content": "老师想带的课题缺人手，希望顺利批下来。",
+      "tone": "礼貌、有分寸",
+      "batch": 1,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "c7950de6-f720-499b-8db2-737d52a7b82c",
+      "relation": "老师",
+      "wish_type": "life",
+      "content": "老师办公桌的抽屉坏了两年，一直没换。",
+      "tone": "礼貌、有分寸",
+      "batch": 1,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "61dec001-9dc8-4010-8cd0-3198eb6fe0e5",
+      "relation": "老师",
+      "wish_type": "lonely",
+      "content": "老师帮了那么多人，好像没人帮他。",
+      "tone": "礼貌、有分寸",
+      "batch": 1,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "66d24233-15b7-48e2-896a-2d13a4d70d5f",
+      "relation": "老师",
+      "wish_type": "sleep",
+      "content": "老师批改作业到凌晨，希望他十一点能回家。",
+      "tone": "礼貌、有分寸",
+      "batch": 1,
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "fe760339-4546-4a80-85bc-3244f39b5614",
+      "relation": "一个陌生人",
+      "wish_type": "life",
+      "content": "宿舍楼下修车的师傅，冬天手一直是裂的。",
+      "tone": "克制、不冒犯",
+      "batch": 1,
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "21331a69-14be-47f8-82e9-d28a735bf735",
+      "relation": "一个陌生人",
+      "wish_type": "body",
+      "content": "食堂打饭的阿姨手腕总贴着膏药。",
+      "tone": "克制、不冒犯",
+      "batch": 1,
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "08724097-5d35-4bb8-881e-bed24eef8e8a",
+      "relation": "一个陌生人",
+      "wish_type": "lonely",
+      "content": "每天一起等公交的那位老人，从没听他说过话。",
+      "tone": "克制、不冒犯",
+      "batch": 1,
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "2fb04414-bbac-434a-8dd9-f42426cb06b2",
+      "relation": "一个陌生人",
+      "wish_type": "emotion",
+      "content": "图书馆对面那个总咬着指甲自习的人，希望他别那么焦虑。",
+      "tone": "克制、不冒犯",
+      "batch": 1,
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "1576f0b5-a75a-4eda-8ea8-4323f1b0496b",
+      "relation": "一个陌生人",
+      "wish_type": "sleep",
+      "content": "夜班便利店店员，永远在最困的点上站着。",
+      "tone": "克制、不冒犯",
+      "batch": 1,
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "f0813c45-9696-431c-8526-4851e39e46fa",
+      "relation": "一个陌生人",
+      "wish_type": "study",
+      "content": "地铁上那个背单词的女孩，希望能考上。",
+      "tone": "克制、不冒犯",
+      "batch": 1,
+      "sort_order": 6,
+      "is_active": true
+    }
+  ]
+}
