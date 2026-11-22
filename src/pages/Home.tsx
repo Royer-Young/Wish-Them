@@ -43,7 +43,6 @@ export function Home({ data }: Props) {
             </div>
           </div>
         </div>
-        <span className="scene-caption">日落前，邮局还为你亮着灯。</span>
       </div>
       <div className="home-steps">
         {[
